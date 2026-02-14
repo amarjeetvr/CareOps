@@ -33,7 +33,7 @@ function AppRoutes() {
 
   return (
     <Routes>
-      {/* Public routes (no login) */}
+      {/* Public routes (no logins) */}
       <Route path="/public/contact/:workspaceId" element={<PublicContactForm />} />
       <Route path="/public/book/:serviceToken" element={<PublicBooking />} />
       <Route path="/public/form/:submissionToken" element={<PublicFormSubmission />} />
